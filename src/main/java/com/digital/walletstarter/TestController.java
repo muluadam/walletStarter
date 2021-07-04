@@ -22,9 +22,9 @@ public class TestController {
     public String test3(){
         return "Hello  added ";
     }
-    @GetMapping("/welcom")
+    @GetMapping("/welcome")
     public String welcom(){
-        return "Hello  welcom to DW ";
+        return "Hello  welcome to DW ";
     }
     @GetMapping("/")
     public String test4(){
